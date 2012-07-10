@@ -1,0 +1,6 @@
+usr/share/scim/icons/scim-canna.png
+
+usr/share/locale/ja/LC_MESSAGES/scim-canna.mo
+
+usr/lib/*/scim-1.0/1.4.0/SetupUI/canna-imengine-setup.so
+usr/lib/*/scim-1.0/1.4.0/IMEngine/canna.so
