@@ -1,3 +1,7 @@
+Overview of Changes from scim-canna-1.0.0 to scim-canna-1.0.1
+=============================================================
+* Fix a build problem on gcc-4.3.
+
 Overview of Changes from scim-canna-0.2.0 to scim-canna-1.0.0
 =============================================================
 * Initial public release.

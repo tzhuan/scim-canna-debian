@@ -1,7 +1,7 @@
 # Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.59)
 
-AC_INIT(scim-canna, 1.0.0, poincare@ikezoe.net)
+AC_INIT(scim-canna, 1.0.1, poincare@ikezoe.net)
 AC_CONFIG_SRCDIR([configure.ac])
 
 # Save this value here, since automake will set cflags and cxxflags later
@@ -10,7 +10,7 @@ cppflags_set=${CPPFLAGS+set}
 
 SCIM_CANNA_MAJOR_VERSION=1
 SCIM_CANNA_MINOR_VERSION=0
-SCIM_CANNA_MICRO_VERSION=0
+SCIM_CANNA_MICRO_VERSION=1
 
 SCIM_CANNA_VERSION=$SCIM_CANNA_MAJOR_VERSION.$SCIM_CANNA_MINOR_VERSION.$SCIM_CANNA_MICRO_VERSION
 

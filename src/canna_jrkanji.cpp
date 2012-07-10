@@ -24,6 +24,7 @@
   #include <config.h>
 #endif
 
+#include <string.h>
 #include "canna_jrkanji.h"
 #include "scim_canna_imengine.h"
 #include "scim_canna_imengine_factory.h"
