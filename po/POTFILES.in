@@ -1,0 +1,4 @@
+src/canna_jrkanji.cpp
+src/scim_canna_imengine.cpp
+src/scim_canna_imengine_factory.cpp
+src/scim_canna_imengine_setup.cpp

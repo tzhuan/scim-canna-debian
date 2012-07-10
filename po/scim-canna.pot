@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Takuro Ashie <ashie@homa.ne.jp>
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: ashie@homa.ne.jp\n"
+"POT-Creation-Date: 2006-02-08 15:03+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/canna_jrkanji.cpp:141 src/canna_jrkanji.cpp:142
+msgid "Input mode"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:146 src/canna_jrkanji.cpp:147
+msgid "Off"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:151 src/canna_jrkanji.cpp:152
+msgid "Hiragana"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:156 src/canna_jrkanji.cpp:157
+msgid "Katakana"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:161 src/canna_jrkanji.cpp:162
+msgid "Half width katakana"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:166 src/canna_jrkanji.cpp:167
+msgid "Alphabet"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:171 src/canna_jrkanji.cpp:172
+msgid "Wide alphabet"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:176
+msgid "Symbols"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:177
+msgid "Search a symbol"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:181
+msgid "Hex"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:182
+msgid "Search a kanji by hex"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:186
+msgid "Bushu"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:187
+msgid "Search a kanji by bushu"
+msgstr ""
+
+#: src/canna_jrkanji.cpp:490
+msgid "[Off]"
+msgstr ""
+
+#: src/scim_canna_imengine_factory.cpp:141
+msgid ""
+"Authors of scim-canna:\n"
+"  Copyright (C) 2005 Takuro Ashie <ashie@homa.ne.jp>\n"
+"  Copyright (C) 2004 Hiroyuki Ikezoe <poincare@ikezoe.net>\n"
+"  \n"
+"Authors of Canna:\n"
+"  Copyright (C) 1990-1997 NEC Corporation, Tokyo, Japan.\n"
+"  Copyright (C) 2002-2004 Canna Project.\n"
+msgstr ""
+
+#: src/scim_canna_imengine_factory.cpp:162
+msgid ""
+"Basic operation:\n"
+"  \n"
+msgstr ""
+
+#: src/scim_canna_imengine_factory.cpp:166
+msgid ""
+"1. Switch input mode:\n"
+"  You can toggle on/off Japanese mode by pressing Zenkaku_Hankaku key or\n"
+"  Shift+Space.\n"
+"  \n"
+msgstr ""
+
+#: src/scim_canna_imengine_factory.cpp:172
+msgid ""
+"2. Input hiragana and katakana:\n"
+"  You can input hiragana by inputting romaji. The preedit string can be\n"
+"  converted to katakana or alphabet by pressing Control+N or Control+P.\n"
+"  If you want to cancel inputting, please press Control+G\n"
+"  \n"
+msgstr ""
+
+#: src/scim_canna_imengine_factory.cpp:179
+msgid ""
+"3. Convert to kanji:\n"
+"  After inputting hiragana, you can convert it to kanji by pressing Space\n"
+"  key. When you press Space key once again, available candidates will be\n"
+"  shown. Press Space or Control+F to select a next candidate, and press\n"
+"  Control+B to select a previous candidate. Press Control+G to hide\n"
+"  candidates. Then you can commit the preedit string by pressing Enter\n"
+"  key or Control+M.\n"
+"  \n"
+msgstr ""
+
+#: src/scim_canna_imengine_factory.cpp:189
+msgid ""
+"4. Modify sentence segments:\n"
+"  After converting to kanji and before showing candidates or commit, you\n"
+"  can modify sentence segments. Press left and right cursor key or\n"
+"  Control+F and Control+B to select a next or previous segment. Press\n"
+"  Control+I or Control+O to shrink or extend the selected segment.\n"
+"  \n"
+msgstr ""
+
+#: src/scim_canna_imengine_factory.cpp:197
+msgid ""
+"5. Additional features:\n"
+"  You can access to additional features of Canna by pressing Home key.\n"
+"  It includes searching kanji letters, registering a word and environment\n"
+"  preferences.\n"
+"  \n"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:85
+msgid "Canna"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:90
+msgid "A Canna IMEngine Module."
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:161
+msgid "Specify Canna initialize file"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:170
+msgid "Specify Canna server name"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:186
+msgid "The Canna initialize file name to use."
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:195
+msgid "The Canna host name to connect."
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:202
+msgid "Default mode:"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:211
+msgid "On/Off key:"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:222
+msgid "Japanese On"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:223
+msgid "Japanese Off"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:487
+#, c-format
+msgid ""
+"<span size=\"20000\">%s-%s</span>\n"
+"\n"
+"<span size=\"16000\" style=\"italic\">A Japanese input method module\n"
+"for SCIM using Canna</span>\n"
+"\n"
+"\n"
+"\n"
+"<span size=\"12000\">Copyright 2005-2006, Takuro Ashie &lt;ashie@homa.ne."
+"jp&gt;</span>"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:523
+msgid "Common"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:529
+msgid "Mode"
+msgstr ""
+
+#: src/scim_canna_imengine_setup.cpp:535
+msgid "About"
+msgstr ""

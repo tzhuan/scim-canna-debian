@@ -1,0 +1,192 @@
+2006-02-09 Takuro Ashie <ashie@homa.ne.jp>
+
+	* configure.ac: Version-1.0.0.
+
+2006-02-08 Takuro Ashie <ashie@homa.ne.jp>
+
+	* AUTHORS, README: Update.
+
+2006-02-07 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_setup.cpp: Add version information.
+	* po/ja.po: Update.
+
+2006-02-07 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_setup.cpp: Fix typo. Remove needless code.
+
+2006-02-07 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_action.{cpp,h}: Remove.
+	* src/Makefile.am, src/scim_canna_imengine.{cpp,h},
+	  src/scim_canna_imengine_factory.{cpp,h}:
+	Remove needless code.
+
+2006-02-06 Takuro Ashie <ashie@homa.ne.jp>
+
+	* README: Add contents.
+
+2006-02-02 Takuro Ashie <ashie@homa.ne.jp>
+
+	* Version-0.2.0.
+
+2006-02-01 Hiroyuki Ikezoe <poincare@ikezoe.net>
+
+	* src/configure.ac:  append AC_SUBST(LIBTOOL_EXPORT_OPTIONS) for 
+	preventing "@LIBTOOL_EXPORT_OPTIONS@: No such file or directory"
+
+2006-01-31 Takuro Ashie <ashie@homa.ne.jp>
+
+	* configure.ac: Bump version number.
+
+2006-01-31 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/canna_jrkanji.cpp, src/scim_canna_imengine.cpp,
+	  src/scim_canna_imengine_factory.{cpp,h},
+	  src/scim_canna_imengine_setup.cpp,
+	  src/scim_canna_prefs.h:
+	Add preference for initial input mode.
+	* po/ja.po: Update.
+
+2006-01-31 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine.cpp: Call reset() on focus out.
+
+2005-11-09 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_factory.cpp:
+	Add package name and version into authors text.
+	Thank you for your notifying > Masatake YAMATO <jet@gyve.org>
+
+2005-11-08 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_factory.cpp: Add help.
+	* po/ja.po: Update.
+
+2005-09-26 Takuro Ashie <ashie@homa.ne.jp>
+
+	* AUTHORS, src/scim_canna_imengine_factory.cpp:
+	Change order of authors list.
+
+2005-09-01 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/canna_jrkanji.{cpp,h}, src/scim_canna_imengine.cpp,
+	  src/scim_canna_imengine_factory.{cpp,h}, src/scim_canna_prefs.h:
+	Add on/off key.
+
+2005-08-31 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/canna_jrkanji.cpp: Fix indent.
+
+2005-08-30 Takuro Ashie <ashie@homa.ne.jp>
+
+	* configure.ac: Version-0.1.3.
+
+2005-08-30 Takuro Ashie <ashie@homa.ne.jp>
+
+	* data/scim-canna.png: Add.
+
+2005-08-29 Takuro Ashie <ashie@homa.ne.jp>
+
+	* configured.ac: Version-0.1.2.
+
+2005-08-23 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_factory.cpp: Add authors.
+
+2005-08-22 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_factory.cpp: Disconnect "reload" signal of
+	config object. Thanks James Su.
+
+2005-07-31 Takuro Ashie <ashie@homa.ne.jp>
+
+	* skim/setupui/cannaui.ui: Add UI.
+	  skim/setupui/scimcannasettingplugin.cpp: Remove wasted code.
+
+2005-07-29 Takuro Ashie <ashie@homa.ne.jp>
+
+	* configure.ac: Version-0.1.1.
+
+2005-07-20 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine.h: Fix a build problem.
+	Thanks reporting > Thierry Vignaud & UTUMI Hirosi
+
+2005-07-10 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_setup.cpp: Set tooltips.
+	* po/ja.po: Update.
+
+2005-05-17 Takuro Ashie <ashie@homa.ne.jp>
+
+	* configure.ac; Sorry, AM_INIT_AUTOMAKE(1.9), not AM_PREREQ.
+
+2005-05-17 Takuro Ashie <ashie@homa.ne.jp>
+
+	* configure.ac; Add AM_PREREQ & AC_PREREQ.
+
+2005-04-29 Takuro Ashie <ashie@homa.ne.jp>
+
+	* configure.ac: Version-0.1.0.
+
+2005-04-28 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine.cpp, src/scim_canna_imengine.h,
+	  src/canna_jrkanji.cpp, src/scim_canna_jrkaji.h:
+	Make sure to show preedit string and aux string.
+
+2005-04-28 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_setup.cpp: Refactoring.
+
+2005-04-06 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/canna_jrkanji.cpp, src/scim_canna_imengine.cpp,
+	  src/scim_canna_imengine.h:
+	Added visible flag for guide line string.
+
+2005-03-24 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine_factory.cpp,
+	  src/scim_canna_imengine_factory.h,
+	  src/scim_canna_imenigne_prefs.h, src/canna_imengine_setup.cpp
+	  src/canna_jrkanji.cpp:
+	Added init file and server name preference.
+
+	* po/ja.po: Updated.
+
+2005-03-23 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/canna_jrkanji.h: Moved translate_key_event() to private field.
+
+2005-03-23 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/canna_jrkanji.cpp: Fixed odd behavior on symbols mode.
+	* po/ja.po: Updated.
+
+2005-03-23 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/canna_jrkanji.cpp: Removed some nosense modes.
+
+2005-03-22 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine.cpp,
+	  src/canna_jrkanji.cpp, src/canna_jrkanji.h:
+	Added some properties to change input mode.
+
+2005-03-21 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/canna_jrkanji.cpp, src/canna_jrkanji.h,
+	  src/scim_canna_imengine.cpp:
+	Create a canna context per each CannaInstance.
+	Show property label.
+
+2005-03-20 Takuro Ashie <ashie@homa.ne.jp>
+
+	* src/scim_canna_imengine.cpp: Register empty PropertyList to clear
+	tollbar.
+
+2005-03-20 Takuro Ashie <ashie@homa.ne.jp>
+
+	* Initial import into CVS.
