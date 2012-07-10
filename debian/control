@@ -1,0 +1,20 @@
+Source: scim-canna
+Section: utils
+Priority: optional
+Maintainer: Ikuya Awashiro <ikuya@oooug.jp>
+Uploaders: Yukiharu YABUKI <yyabuki@debian.org>
+Build-Depends: debhelper (>= 7.0.0), dpatch, libcanna1g-dev, scim (>= 1.4.6), libscim-dev (>= 1.4.6), autotools-dev, pkg-config, libltdl-dev
+Standards-Version: 3.9.1.0
+Homepage: http://scim-imengine.sourceforge.jp/
+
+Package: scim-canna
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, scim (<< 1.5.0)
+Description: SCIM IMEngine module for Canna
+ Smart Common Input Method platform (SCIM) is an input method server
+ and a development platform to make Input Method developers' lives
+ easier.
+ Canna is a Japanese input system available in Free Software.
+ Canna provides a unified user interface for inputting Japanese.
+ Canna converts kana to kanji based on a client-server model and
+ supports automatic kana-to-kanji conversion.

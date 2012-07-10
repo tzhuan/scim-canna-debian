@@ -1,0 +1,29 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 30-fix_gcc-4.3_ftbfs.dpatch by Cyril Brulebois <cyril.brulebois@enst-bretagne.fr>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+@DPATCH@
+--- a/src/canna_jrkanji.cpp
++++ b/src/canna_jrkanji.cpp
+@@ -29,6 +29,8 @@
+ #include "scim_canna_imengine_factory.h"
+ #include "intl.h"
+ 
++#include <cstring>
++
+ #define SCIM_PROP_INPUT_MODE                 "/IMEngine/Canna/InputMode"
+ #define SCIM_PROP_INPUT_MODE_OFF             "/IMEngine/Canna/InputMode/Off"
+ #define SCIM_PROP_INPUT_MODE_HIRAGANA        "/IMEngine/Canna/InputMode/Hiragana"
+--- a/src/scim_canna_imengine_setup.cpp
++++ b/src/scim_canna_imengine_setup.cpp
+@@ -38,6 +38,8 @@
+ #include "scim_canna_prefs.h"
+ #include "intl.h"
+ 
++#include <cstring>
++
+ using namespace scim;
+ 
+ #define scim_module_init canna_imengine_setup_LTX_scim_module_init

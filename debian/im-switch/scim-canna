@@ -1,0 +1,14 @@
+libqscim="/usr/lib/qt3/plugins/inputmethods/libqscim.so"
+
+if [ -e "$libqscim" ]; then
+	im="scim"
+else
+	im="xim"
+fi
+
+XIM=SCIM
+XIM_PROGRAM=/usr/bin/scim
+XIM_ARGS="-d"
+GTK_IM_MODULE=scim
+QT_IM_MODULE="$im"
+DEPENDS="scim,canna,scim-gtk2-immodule"

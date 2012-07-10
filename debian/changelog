@@ -1,0 +1,79 @@
+scim-canna (1.0.0-4) unstable; urgency=medium
+
+  * debian/control: add pkg-config, libltdl-dev to Depends.
+    (Closes: #590410)
+  * Urgency medium due to RC bug fix.
+  * debian/control: add Homepage field.
+  * debian/control: add ${misc:Depends}.
+  * debian/control: Standards-Version: 3.9.1.0.
+  * debian:rules: use "[ ! -f Makefile ] || $(MAKE) distclean".
+  * debian/compat: set 7.
+  * debian/control: change debhelper to 7.
+  * debian/rules: do not use dh_clean -k.
+  * debian/README.source: added.
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Wed, 18 Aug 2010 18:09:45 +0900
+
+scim-canna (1.0.0-3.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix gcc-4.3 FTBFS, patch by KiBi (Closes: #455345)
+
+ -- Marc 'HE' Brockschmidt <he@debian.org>  Sun, 16 Mar 2008 18:32:53 +0100
+
+scim-canna (1.0.0-3) unstable; urgency=low
+
+  * removed debian/patches/10_scim-plugin-module-install-dir.
+    Closes: #422951
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Sat, 12 May 2007 22:46:00 +0900
+
+scim-canna (1.0.0-2) unstable; urgency=low
+
+  * removed im-switch support (Closes: #374157)
+  * Standards-Version bumped to 3.7.2 (no changes requied)
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Sun, 18 Jun 2006 17:49:22 +0900
+
+scim-canna (1.0.0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/im-switch/scim-canna: auto-detect for libqscim.so.   
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Mon, 27 Feb 2006 22:24:39 +0900
+
+scim-canna (0.1.3-1) unstable; urgency=low
+
+  * New upstream release
+  * close wnpp bug (closes: bug#326631)
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Wed, 31 Aug 2005 00:47:12 +0900
+
+scim-canna (0.1.2-1) unstable; urgency=low
+
+  * sync with ubuntu.
+  * Bump Standards-Version to 3.6.2 (no changes required).
+  * Add im-swich support.
+  * debian/rules: enable dh_strip.
+  * debian/control: changed Depends and Build-Depends for SCIM 1.3.x.
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Tue, 30 Aug 2005 13:16:44 +0000
+
+scim-canna (0.1.2-0ubuntu1) hoary-ja; urgency=low
+
+  * New upstream release
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Mon, 29 Aug 2005 18:18:29 +0900
+
+scim-canna (0.1.1-0ubuntu1) hoary-ja; urgency=low
+
+  * New upstream release
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Fri, 29 Jul 2005 15:45:27 +0900
+
+scim-canna (0.1.0-1ubuntu1) hoary-ja; urgency=low
+
+  * Initial Release.
+
+ -- Ikuya Awashiro <ikuya@oooug.jp>  Thu, 26 May 2005 17:34:58 +0900
+
