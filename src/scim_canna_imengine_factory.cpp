@@ -152,7 +152,9 @@ CannaFactory::get_authors () const
 WideString
 CannaFactory::get_credits () const
 {
-    return WideString ();
+    return utf8_mbstowcs (
+        _("Art work:\n"
+          "  SHIMODA Hiroshi <piro@p.club.ne.jp>"));
 }
 
 WideString
