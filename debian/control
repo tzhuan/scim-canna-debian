@@ -3,8 +3,8 @@ Section: utils
 Priority: optional
 Maintainer: Ikuya Awashiro <ikuya@oooug.jp>
 Uploaders: Yukiharu YABUKI <yyabuki@debian.org>
-Build-Depends: debhelper (>= 7.0.0), dpatch, libcanna1g-dev, scim (>= 1.4.6), libscim-dev (>= 1.4.6), autotools-dev, pkg-config, libltdl-dev
-Standards-Version: 3.9.1.0
+Build-Depends: debhelper (>= 9), libcanna1g-dev, scim (>= 1.4.6), libscim-dev (>= 1.4.6), autotools-dev, pkg-config, libltdl-dev
+Standards-Version: 3.9.3
 Homepage: http://scim-imengine.sourceforge.jp/
 
 Package: scim-canna
