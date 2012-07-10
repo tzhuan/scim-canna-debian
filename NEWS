@@ -1,0 +1,26 @@
+Overview of Changes from scim-canna-0.2.0 to scim-canna-1.0.0
+=============================================================
+* Initial public release.
+* Add README
+
+Overview of Changes from scim-canna-0.1.3 to scim-canna-0.2.0
+=============================================================
+* Add on/off key.
+* Add preferences for initial input mode.
+
+Overview of Changes from scim-canna-0.1.2 to scim-canna-0.1.3
+=============================================================
+* Add icon.
+
+Overview of Changes from scim-canna-0.1.1 to scim-canna-0.1.2
+=============================================================
+* Fix clash bug of scim-setup. (Thanks James Su)
+
+Overview of Changes from scim-canna-0.1.0 to scim-canna-0.1.1
+=============================================================
+* Fix a build problem on GCC-4.0.
+* Minor improvements in setup UI.
+
+scim-canna-0.1.0
+=============================================================
+* Initial release.
